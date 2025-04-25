@@ -1,0 +1,149 @@
+.body-pro{
+    background: #fffafad7;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 5px;
+    
+}
+.menu-container{
+    
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* background-color: rgb(13, 162, 162); */
+    padding: 20px;
+
+
+
+}
+li{
+    list-style:none;  /*list er dot gula remove kore */
+    font-size: 18px;
+}
+
+li:hover{
+    color: rgb(203, 2, 2);/*cursor list a niye gle color change hoy*/
+    cursor: pointer;
+}
+
+.my-resume-btn{
+    width: 80px;
+    height:35px;
+    background-color: rgb(217, 140, 38);
+    color:black;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 5px;
+    align-self: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+.icon-details{
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.anime{
+    width: 200px;
+    height: 350px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+.details{
+    border: 2px solid rgb(253, 253, 252);
+    width: 50%;
+    padding: 20px;
+   
+}
+.project-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 15px;
+}
+.btn-my{
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(17, 17, 17, 0.707);
+    color: rgb(249, 250, 251);
+    /* display: flex;
+    justify-content: space-around; */
+    gap: 3px;
+}
+
+.shazzad{
+   
+   margin-top: 5px;
+   margin-left: 10px;
+}
+
+.expertise{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button:hover{
+    color: rgb(21, 2, 148);/*cursor list a niye gle color change hoy*/
+    cursor: pointer;
+}
+
+.contact-form{
+    /* width: 300px;
+    height: 300px; */
+    border: 2px solid green;
+    box-shadow: 4px 4px 8px rgba(19, 18, 18, 0.837);
+    padding: 10px 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px; 
+    width: 100%;   
+    margin: 100px auto; 
+
+}
+.site-footer{
+   border: 2px solid rgb(243, 243, 247);
+   background-color: blueviolet;
+   box-shadow: 4px 4px 8px black;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+
+
+}
+
+.icon-details2{
+    
+    display: flex;
+    justify-content:center;
+    gap:30px
+
+}
+.foot-img{
+    width: 30px;
+    height: 30px;
+}
+
